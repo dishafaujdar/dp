@@ -2,10 +2,9 @@ const handles = [
   { label: 'X', href: 'https://x.com/DisHasCode' },
   { label: 'Github', href: 'https://github.com/dishafaujdar' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/dishafaujdar/' },
-  { label: 'Resume', href: 'https://drive.google.com/file/d/13rFSkvz_03Wza2OVu3QQ4aFEhD-zVnOV/view?usp=sharing' },
   { label: 'YouTube', href: 'https://www.youtube.com/@watchmeEngineering' },
   { label: 'Fiverr', href: 'https://www.fiverr.com/s/qD1G97p' },
-  // { label: 'Phone', href: 'tel:+919166890988' },
+  { label: 'Resume', href: 'https://drive.google.com/file/d/13rFSkvz_03Wza2OVu3QQ4aFEhD-zVnOV/view?usp=sharing' },
 ]
 
 export function Contact() {
@@ -17,7 +16,7 @@ export function Contact() {
         Reach me at{' '}
         <a
           href="mailto:dishafaujdar.work@gmail.com"
-          className="text-ink underline underline-offset-4 decoration-black/35 hover:decoration-black transition-all"
+          className="text-ink underline underline-offset-4 decoration-black/35"
         >
           dishafaujdar.work@gmail.com
         </a>
@@ -33,7 +32,7 @@ export function Contact() {
             href={href}
             target="_blank"
             rel="noreferrer"
-            className="font-mono text-ink text-base underline underline-offset-4 decoration-black/35 hover:decoration-black transition-all duration-150"
+            className="font-mono text-ink text-base underline underline-offset-4 decoration-black/35"
           >
             {label}
           </a>

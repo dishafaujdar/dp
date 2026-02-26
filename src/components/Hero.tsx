@@ -11,18 +11,20 @@ export function Hero() {
         style={{ aspectRatio: '16/7' }}
       >
         <Image
-          src="/workstation.jpg"
+          src="/workstation/downn.jpg"
           alt="Disha's workstation"
           fill
           className="object-cover"
           priority
-          sizes="(max-width: 860px) 100vw, 860px"
+          sizes="(max-width: 860px) 860px, 860px"
         />
       </div>
 
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-8 sm:gap-12">
         <div className="flex-1 min-w-0">
-          <p className="font-mono text-ink text-base mb-5">Hey, it&apos;s I !!</p>
+          <p className="font-mono text-ink text-base mb-5">
+            Hey, it&apos;s I &amp; kiu (she&apos;s the senior engineer 🐱)
+          </p>
 
           <p className="font-mono text-ink-desc text-base leading-relaxed max-w-[55ch]">
             Disha Faujdar, an engineer from, India.
@@ -31,7 +33,7 @@ export function Hero() {
               href="https://www.funnyshortjokes.com"
               target="_blank"
               rel="noreferrer"
-              className="text-ink underline underline-offset-4 decoration-black/35 hover:decoration-black transition-all"
+              className="text-ink underline underline-offset-4 decoration-black/35"
             >
               no where
             </a>

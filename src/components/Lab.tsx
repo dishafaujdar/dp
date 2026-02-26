@@ -32,7 +32,7 @@ export function Lab() {
                 href={href}
                 target="_blank"
                 rel="noreferrer"
-                className="text-ink underline underline-offset-4 decoration-black/35 hover:decoration-black transition-all"
+                className="text-ink underline underline-offset-4 decoration-black/35"
               >
                 {title}
               </a>

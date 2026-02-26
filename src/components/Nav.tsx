@@ -20,7 +20,7 @@ export function Nav() {
           <li key={href}>
             <Link
               href={href}
-              className="font-mono text-ink text-base underline underline-offset-4 decoration-black/35 hover:decoration-black transition-all duration-150"
+              className="font-mono text-ink text-base underline underline-offset-4 decoration-black/35"
             >
               {label}
             </Link>

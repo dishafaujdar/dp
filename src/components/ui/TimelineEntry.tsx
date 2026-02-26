@@ -18,8 +18,8 @@ export function TimelineEntry({
   boxed,
 }: EntryData) {
   const inner = boxed ? (
-    <div className="border-2 border-transparent rounded-[3px] hover:border-ink transition-all duration-150">
-      <div className="py-3 px-5 font-mono group hover:bg-parch-dk transition-all duration-150 border border-divider rounded-[3px]">
+    <div className="border-2 border-transparent rounded-[3px]">
+      <div className="py-3 px-5 font-mono border border-divider rounded-[3px]">
         {/* Row 1: title left, date right */}
         <div className="flex items-baseline justify-between gap-3 mb-[3px]">
           <div className="flex items-baseline gap-2 min-w-0">
@@ -44,7 +44,7 @@ export function TimelineEntry({
       </div>
     </div>
   ) : (
-    <div className="py-3 px-5 font-mono group hover:bg-parch-dk transition-all duration-150">
+    <div className="py-3 px-5 font-mono">
       {/* Row 1: title left, date right */}
       <div className="flex items-baseline justify-between gap-3 mb-[3px]">
         <div className="flex items-baseline gap-2 min-w-0">
