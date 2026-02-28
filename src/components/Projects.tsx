@@ -2,12 +2,21 @@ import { TimelineEntry } from './ui/TimelineEntry'
 
 const projects = [
   {
+    title: 'WikiMind - RAG',
+    date: '2026',
+    description:
+      'WikiMind — full-stack RAG system where users upload PDFs and chat with their documents. Built adaptive retrieval hybrid BM25 + reranking based on corpus size, hierarchical chunking, streaming responses, used async pipelines, redis and bull.js for queuing and background jobs, and end-to-end observability via Langfuse.',
+    badge: 'New',
+    boxed: true,
+    href: 'https://github.com/dishafaujdar/WikiMind-RAG',
+  },
+  {
     title: 'Synthesia — AI Research Agent',
     date: '2025',
     description:
       'AI Research Agent that accepts a topic, runs a small research workflow, and returns a structured result. Tech: TypeScript, Redis, Bull.js, Express, PostgreSQL.',
     badge: 'New',
-    boxed: true,
+    boxed: false,
     href: 'https://github.com/dishafaujdar',
   },
   {
@@ -16,7 +25,7 @@ const projects = [
     description:
       'Conservative decision system matching developers with realistic open-source contribution opportunities. Analyzes proven work history and matches with contributor-friendly repos. Tech: Python, Typer, Rich, GitHub API, Sentence Transformers, FAISS, LLMs.',
     badge: 'New',
-    boxed: true,
+    boxed: false,
     href: 'https://github.com/dishafaujdar',
   },
   {
@@ -34,14 +43,6 @@ const projects = [
       'Scikit-learn built from scratch in NumPy to understand ML algorithms at their mathematical core.',
     boxed: false,
     href: 'https://github.com/dishafaujdar',
-  },
-  {
-    title: 'WikiMind',
-    date: '2026',
-    description: 'Under construction — more info coming soon.',
-    badge: 'In progress',
-    boxed: false,
-    href: 'https://github.com/dishafaujdar/WikiMind-RAG',
   },
   {
     title: 'ChessMind',
