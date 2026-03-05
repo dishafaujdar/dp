@@ -1,10 +1,10 @@
 const handles = [
-  { label: 'X', href: 'https://x.com/DisHasCode' },
+  { label: 'X', href: 'https://x.com/dishafaujdar' },
   { label: 'Github', href: 'https://github.com/dishafaujdar' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/dishafaujdar/' },
   { label: 'YouTube', href: 'https://www.youtube.com/@watchmeEngineering' },
   { label: 'Fiverr', href: 'https://www.fiverr.com/s/qD1G97p' },
-  { label: 'Resume', href: 'https://drive.google.com/file/d/1d2w866r5R0UClkVVTxVbdqFIkt4UQzzZ/view?usp=sharing' },
+  { label: 'Resume', href: 'https://drive.google.com/file/d/1W6FVqfdMLb4TFr7vaj2S78nAnRS7v8Qi/view?usp=sharing' },
 ]
 
 export function Contact() {
