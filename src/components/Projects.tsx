@@ -17,7 +17,7 @@ const projects = [
       'AI Research Agent that accepts a topic, runs a small research workflow, and returns a structured result. Tech: TypeScript, Redis, Bull.js, Express, PostgreSQL.',
     badge: 'New',
     boxed: false,
-    href: 'https://github.com/dishafaujdar',
+    href: 'https://github.com/dishafaujdar/Synthesia',
   },
   {
     title: 'OSS-Align',
@@ -26,7 +26,7 @@ const projects = [
       'Conservative decision system matching developers with realistic open-source contribution opportunities. Analyzes proven work history and matches with contributor-friendly repos. Tech: Python, Typer, Rich, GitHub API, Sentence Transformers, FAISS, LLMs.',
     badge: 'New',
     boxed: false,
-    href: 'https://github.com/dishafaujdar',
+    href: 'https://github.com/dishafaujdar/os-agent',
   },
   {
     title: 'Trainyard',
@@ -42,7 +42,7 @@ const projects = [
     description:
       'Scikit-learn built from scratch in NumPy to understand ML algorithms at their mathematical core.',
     boxed: false,
-    href: 'https://github.com/dishafaujdar',
+    href: 'https://github.com/dishafaujdar/MiniKit',
   },
   {
     title: 'ChessMind',
@@ -51,14 +51,6 @@ const projects = [
       badge: 'In progress',
         boxed: false,
     href: 'https://github.com/dishafaujdar',
-  },
-  {
-    title: 'shipBase',
-    date: '2026',
-    description: 'Under construction — more info coming soon.',
-    badge: 'In progress',
-    boxed: false,
-    href: 'https://github.com/dishafaujdar/shipBase',
   },
 ]
 
