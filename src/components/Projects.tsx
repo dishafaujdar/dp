@@ -1,13 +1,22 @@
+import { tr } from 'framer-motion/client'
 import { TimelineEntry } from './ui/TimelineEntry'
 
 const projects = [
+  {
+    title: 'Fillit',
+    date: '2026',
+    description: 'Fillit is a job application autofill system: a Next.js dashboard to manage your profile and resumes, a Chrome extension that fills application forms using a native setter strategy cascade, and a Node/Express API with PostgreSQL.',
+    badge: 'New',
+    boxed: true,
+    href: 'https://github.com/dishafaujdar/fillIt',
+  },
   {
     title: 'WikiMind - RAG',
     date: '2026',
     description:
       'WikiMind — full-stack RAG system where users upload PDFs and chat with their documents. Built adaptive retrieval hybrid BM25 + reranking based on corpus size, hierarchical chunking, streaming responses, used async pipelines, redis and bull.js for queuing and background jobs, and end-to-end observability via Langfuse.',
     badge: 'New',
-    boxed: true,
+    boxed: false,
     href: 'https://github.com/dishafaujdar/WikiMind-RAG',
   },
   {
@@ -15,7 +24,7 @@ const projects = [
     date: '2025',
     description:
       'AI Research Agent that accepts a topic, runs a small research workflow, and returns a structured result. Tech: TypeScript, Redis, Bull.js, Express, PostgreSQL.',
-    badge: 'New',
+    // badge: 'New',
     boxed: false,
     href: 'https://github.com/dishafaujdar/Synthesia',
   },
@@ -24,7 +33,7 @@ const projects = [
     date: '2025',
     description:
       'Conservative decision system matching developers with realistic open-source contribution opportunities. Analyzes proven work history and matches with contributor-friendly repos. Tech: Python, Typer, Rich, GitHub API, Sentence Transformers, FAISS, LLMs.',
-    badge: 'New',
+    // badge: 'New',
     boxed: false,
     href: 'https://github.com/dishafaujdar/os-agent',
   },
@@ -45,12 +54,12 @@ const projects = [
     href: 'https://github.com/dishafaujdar/MiniKit',
   },
   {
-    title: 'ChessMind',
+    title: 'Mnemo',
     date: '2026',
-    description: 'Under construction — more info coming soon.',
+    description: 'A production-grade memory middleware REST API for AI agents. Mnemo gives stateless LLMs (GPT, Claude, coding assistants) persistent, temporally-aware memory by maintaining three memory layers: episodic (raw), semantic (structured facts with bi-temporal edges), and a user profile. It is inspired by Mem0\'s fact extraction pipeline and Zep/Graphiti\'s bi-temporal edge model, but implemented without a graph database — using SQLite + Qdrant only, keeping it lightweight and self-hostable.',
       badge: 'In progress',
-        boxed: false,
-    href: 'https://github.com/dishafaujdar',
+        boxed: true,
+    href: 'https://github.com/dishafaujdar/Mnemo',
   },
 ]
 
