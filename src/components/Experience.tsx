@@ -3,7 +3,7 @@ import { TimelineEntry } from './ui/TimelineEntry'
 const experience = [
   {
     title: 'Software Engineer (Intern) — Superset',
-    date: 'Aug 2025 — Feb 2026',
+    date: 'March 2025 — March 2026',
     description:
       'Built an AI-powered health tracking mobile app with Expo, Supabase, and PostgreSQL. Improved screen load times by ~35% via soft reloading, client-side caching, and incremental state updates. Enhanced in-app search with prefix-based and fuzzy matching, improving successful search results by ~45%. Tech: Expo, Node.js, Prisma.',
     badge: 'Current',

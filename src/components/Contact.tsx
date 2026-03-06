@@ -4,7 +4,7 @@ const handles = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/dishafaujdar/' },
   { label: 'YouTube', href: 'https://www.youtube.com/@watchmeEngineering' },
   { label: 'Fiverr', href: 'https://www.fiverr.com/s/qD1G97p' },
-  { label: 'Resume', href: 'https://drive.google.com/file/d/1W6FVqfdMLb4TFr7vaj2S78nAnRS7v8Qi/view?usp=sharing' },
+  { label: 'Resume', href: 'https://drive.google.com/file/d/18jmowsKQtKRCWkHdqF0g0Wd6NbuuoaBb/view?usp=sharing' },
 ]
 
 export function Contact() {

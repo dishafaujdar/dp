@@ -48,7 +48,7 @@ export function Hero() {
           </div>
           <div className="flex gap-2 flex-wrap sm:justify-end">
             <span className="text-ink-dim">Experience:</span>
-            <span className="text-ink">~2 years</span>
+            <span className="text-ink">~1 years</span>
           </div>
           <div className="flex flex-col sm:items-end">
             <div className="flex gap-2 flex-wrap sm:justify-end">
