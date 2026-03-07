@@ -28,9 +28,9 @@ export function Hero() {
 
           <p className="font-mono text-ink-desc text-base leading-relaxed max-w-[55ch]">
             Disha Faujdar, an engineer from, India.
-            Currently interning at{' '}
+            Currently working at{' '}
             <a
-              href="https://www.funnyshortjokes.com"
+              href="https://github.com/dishafaujdar"
               target="_blank"
               rel="noreferrer"
               className="text-ink underline underline-offset-4 decoration-black/35"

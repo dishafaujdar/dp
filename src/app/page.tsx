@@ -14,9 +14,9 @@ export default function Home() {
       </h1>
       <Nav />
       <Hero />
+      <Experience />
       <Projects />
       <Lab />
-      <Experience />
       <Skills />
       <Contact />
       <footer className="font-mono text-ink text-base border-t border-divider pt-6 pb-10">
