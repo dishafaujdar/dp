@@ -3,11 +3,27 @@ import { TimelineEntry } from './ui/TimelineEntry'
 
 const projects = [
   {
+    title: 'Tunespace',
+    date: '2026',
+    description: "Built a platform-agnostic synchronized music listening app where users drop into a shared room via link and listen together in real-time — no account required. Build a sync engine: a drift-correction system that computes true playback position accounting for network latency, then applies soft corrections via playback rate manipulation rather than jarring hard seeks. Unified a single IPlayer interface across YouTube, Spotify, and SoundCloud SDKs, each with wildly different APIs, into one coherent abstraction. Built on Next.js with WebSocket server since App Router doesn't support persistent connections natively.",
+    badge: 'New',
+    boxed: true,
+    href: 'https://github.com/dishafaujdar/Tunespace',
+  },
+  {
+    title: 'feat: Implement episodic memory layer and experiment gating with LLM resolution',
+    date: '2026',
+    description: 'Built a persistent memory layer for autoresearch by karpathy — an autonomous ML research agent that runs hundreds of experiments overnight. The problem: the agent rediscovers the same dead ends every run. No memory of what it already tried.The architecture is directly inspired by CoALA (Sumers et al. 2023) — episodic memory for autonomous research agents.',
+    // badge: 'New',
+    boxed: false,
+    href: 'https://github.com/karpathy/autoresearch/pull/341',
+  },
+  {
     title: 'Fillit',
     date: '2026',
     description: 'Fillit is a job application autofill system: a Next.js dashboard to manage your profile and resumes, a Chrome extension that fills application forms using a native setter strategy cascade, and a Node/Express API with PostgreSQL.',
-    badge: 'New',
-    boxed: true,
+    // badge: 'New',
+    boxed: false,
     href: 'https://github.com/dishafaujdar/fillIt',
   },
   {
@@ -36,22 +52,6 @@ const projects = [
     // badge: 'New',
     boxed: false,
     href: 'https://github.com/dishafaujdar/os-agent',
-  },
-  {
-    title: 'Trainyard',
-    date: '2024',
-    description:
-      'Interactive web app for experimenting with ML models. Real-time training and visualization over WebSockets with PyTorch and FastAPI.',
-    boxed: false,
-    href: 'https://github.com/dishafaujdar/Trainyard',
-  },
-  {
-    title: 'MiniKit',
-    date: '2023',
-    description:
-      'Scikit-learn built from scratch in NumPy to understand ML algorithms at their mathematical core.',
-    boxed: false,
-    href: 'https://github.com/dishafaujdar/MiniKit',
   },
   {
     title: 'Mnemo',
