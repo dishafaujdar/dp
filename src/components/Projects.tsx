@@ -8,7 +8,7 @@ const projects = [
     description: "Built a platform-agnostic synchronized music listening app where users drop into a shared room via link and listen together in real-time — no account required. Build a sync engine: a drift-correction system that computes true playback position accounting for network latency, then applies soft corrections via playback rate manipulation rather than jarring hard seeks. Unified a single IPlayer interface across YouTube, Spotify, and SoundCloud SDKs, each with wildly different APIs, into one coherent abstraction. Built on Next.js with WebSocket server since App Router doesn't support persistent connections natively.",
     badge: 'New',
     boxed: true,
-    href: 'https://github.com/dishafaujdar/Tunespace',
+    href: 'https://tunespace-7rqn.onrender.com',
   },
   {
     title: 'feat: Implement episodic memory layer and experiment gating with LLM resolution',
